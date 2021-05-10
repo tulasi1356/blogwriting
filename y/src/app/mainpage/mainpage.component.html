@@ -1,1 +1,5 @@
-<p>mainpage works!</p>
+<input type="text" #color>
+<button (click)="colorchange(color.value)">apply</button>
+<div class="check">
+    <p [ngStyle]="{'color': color.value}">scfdjl ndfhgfhdgfhv</p>
+</div>

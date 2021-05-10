@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-mainpage',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainpageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elementRef: ElementRef) { }
 
   ngOnInit(): void {
+  }
+  colorchange(color: any){
+    // this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor =color;
+    
   }
 
 }
