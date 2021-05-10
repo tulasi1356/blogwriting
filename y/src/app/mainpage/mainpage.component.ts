@@ -12,7 +12,7 @@ export class MainpageComponent implements OnInit {
   ngOnInit(): void {
   }
   colorchange(color: any){
-    // this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor =color;
+    this.elementRef.nativeElement.ownerDocument.body.style.backgroundColor =color;
     
   }
 

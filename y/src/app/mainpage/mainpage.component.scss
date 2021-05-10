@@ -1,0 +1,15 @@
+.check {
+    border: 20px solid transparent;
+    padding: auto;
+    border-image: url(../../assets/floral-border-frame-background-vector-1187522.jpg) 150 round;
+    // border-image-slice: 100;
+    height:100%;
+    width: 96%;
+    resize: none;
+    overflow: hidden;
+    
+    // background-color: aquamarine;
+}
+.main-content {
+    display: flex;
+}
