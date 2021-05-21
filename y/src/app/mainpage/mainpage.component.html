@@ -9,8 +9,10 @@
 <p>enter font size</p>
 <input type="text" #size value="px">
 <button (click)="colorchange(background.value)">apply</button>
+<!-- <button (click)="capture()">Take</button> -->
 </div>
 <div >
     <textarea class="check" rows="20" cols="10" [ngStyle]="{'color': color.value,'font-style':font.value,'font-size': size.value}" type="text"></textarea>
 </div>
+
 <!-- <img src="" -->

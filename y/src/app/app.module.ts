@@ -1,20 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { NgxCaptureModule } from 'ngx-capture';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
+import { TicToeComponent } from './tic-toe/tic-toe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MainpageComponent
+    MainpageComponent,
+    TicToeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxCaptureModule
   ],
   providers: [],
   bootstrap: [AppComponent]
