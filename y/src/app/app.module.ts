@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { TicToeComponent } from './tic-toe/tic-toe.component';
+import { SudukuComponent } from './suduku/suduku.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MainpageComponent,
-    TicToeComponent
+    TicToeComponent,
+    SudukuComponent
   ],
   imports: [
     BrowserModule,
